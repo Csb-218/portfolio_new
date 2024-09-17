@@ -1,5 +1,6 @@
 @import '../scss/_mixins';
 
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -29,12 +30,27 @@
 		font-size: .875rem;
 	}
 
+    
+
 	.sections {
 		$gap: 2rem;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
+		// flex-wrap: wrap;
+		// background-color: #a371f7;
+		// width: 100%;
+		// align-content: end;
+		// justify-content: center;
 		//justify-content: space-between;
 		gap: $gap;
+
+		.para{
+            width: 50%;
+	    }
+
+		button{
+			align-self: self-start;
+		}
 
 		svg {
 			height: .875rem;
@@ -57,6 +73,8 @@
 				margin-bottom: var(--size-2-);
 			}
 		}
+
+		
 	}
 
 	.socialList {
@@ -118,10 +136,20 @@
 
 @include media($max: $mobile) {
 	.container {
+		
 		.sections {
-			flex-direction: column-reverse;
+			flex-direction: column;
 			text-align: center;
 			gap: 3rem;
+			// width: 50%;
+
+			button{
+				align-self: center;
+			}
+
+			.para{
+				width:100%;
+			}
 			
 			ul {
 				width: 100% !important; // :nth-of-type specifity is bad

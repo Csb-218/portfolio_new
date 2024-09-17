@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useEffect } from 'react'
 import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
-
+import Router from 'next/router'
 import Badges 		from '../../utils/badge.list.util'
 import Icon 		from '../../utils/icon.util'
 
@@ -19,6 +19,8 @@ export default function FeaturedProject({ content }, index) {
 		"threshold": 0.25,
 		"triggerOnce": false
 	})
+
+    console.log(images,stack)
 
 	useEffect( () => {
 		if ( inView ) {	controls.start("visible") }
@@ -47,7 +49,8 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
+					<m.div variants={''} className={css.viewProject} 
+					onClick={ ()=> window.open(`${url}`, "_blank")}>
 						<Icon icon={[ 'fad', 'arrow-right-to-bracket' ]} />
 					</m.div>
 				</div>
@@ -58,9 +61,9 @@ export default function FeaturedProject({ content }, index) {
 					{ images.map( ({key, url, hover, h, w }, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
-							<m.div key={`${index}-${key}`} variants={item}>
+							<m.div key={`${index}-${key}`} variants={item} >
 								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w} />
+									<Image src={url} alt="x" height={900} width={900} />
 								</m.div>
 							</m.div>
 						)}

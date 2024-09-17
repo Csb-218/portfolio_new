@@ -26,28 +26,28 @@ export default function Career() {
 				<SectionTitle
 					title="Experience"
 					preTitle="Career"
-					subTitle="I am current managing, designing, and developing all consumer and digital product initiatives at My Supply Co."
+					subTitle="I am currently creating and developing at Rablo . "
 				/>
 				<section className={career.area}>
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>My Supply Co.</h3>
-								<h4>Permanent Full-time</h4>
-								<h4>Apr 2019 - Present · 3 yrs 10 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h3>Rablo Learing Pvt. Ltd.</h3>
+								<h4>Intern Full-time</h4>
+								<h4>Aug 2024 - Present · 2 months</h4>
+								<h5>Remote</h5>
 							</span>
 							<p>
-							My Supply Co. helps Canadians manage mental and physical health with naturally occurring nootropic and adaptogenic products. They carry products with complex attributes, aiming to solve a large variety of personal care needs — this requires an extremely customized and evolving approach to how the store is built and functions.
+							Rablo is a ready-to-teach Platform to help private educators and small and midsize tuition businesses grow their businesses, run their classes, and establish credibility in the market through Zero Platform Charge. 
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
 					</article>
 
 					<article className={career.companyPositions}>
-						<div className={career.position}>
+						{/* <div className={career.position}>
 							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
+								<span className={career.positionHeader}>
 									<h3>Director of Product Design and Development</h3>
 									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
 								</span>
@@ -56,11 +56,11 @@ export default function Career() {
 								</p>
 							</div>
 							<div className={career.positionAlt}></div>
-						</div>
+						</div> */}
 
-						<div className={career.position}>
+						{/* <div className={career.position}>
 							<div className={career.positionContent}>
-								<span class={career.positionHeader}>
+								<span className={career.positionHeader}>
 									<h3>Full Stack Developer & User Experience Designer</h3>
 									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
 								</span>
@@ -91,55 +91,99 @@ export default function Career() {
 								<Badges list={fullStack} block="stack" fullContainer="fullContainer"/>
 							</div>
 							<div className={career.positionAlt}></div>
-						</div>
+						</div> */}
 					
 						<div className={career.position}>
 							<div className={career.positionContent}>
-									<span class={career.positionHeader}>
-										<h3>Front End Developer & User Interface Designer</h3>
-										<h4>Apr 2019 - Feb 2020 · 11 mos</h4>
+									<span className={career.positionHeader}>
+										<h3>Front End Developer Intern</h3>
+										<h4>Aug 2024 - Present · 2 months</h4>
 									</span>
-								<p>
+								{/* <p>
 									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
-								</p>
+								</p> */}
 								<p>
 									Some key projects completed during this time 👇
 								</p>
 								<ul className={career.list}>
 									<li>
-										Full functionality interactive shopping cart to replace cart page
-										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
-									</li>
-									<li>Complex multi-state animated menus represented in an elegant UI 
-										<span className={career.subList}><span className={career.bullet}></span>Strong brand confidence booster with state of the art menu</span>
+									Collaborated with the design and backend teams to implement responsive design solutions, ensuring seamless functionality across various devices and browsers.
+										{/* <span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span> */}
 									</li>
 									<li>
-										Design and development of the site and merchandising strategy optimized for market
-										<span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span>
+									Implemented dynamic imports .
+										<span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span>
+									</li>
+									<li>
+									Developed and optimized user interfaces using HTML, CSS, and JavaScript, enhancing the overall user experience
+									and performance of Rablo.in&apos;s web applications.
+										{/* <span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span> */}
 									</li>
 								</ul>
 								<Badges list={stack} block="stack" fullContainer="fullContainer"/>
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
+
 					</article>
 
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<h3>Another Creative Ltd.</h3>
-								<h4>Contract Part-time</h4>
-								<h4>Jun 2016 - Present · 6 yrs 8 mos</h4>
-								<h5>Vancouver, British Columbia, Canada</h5>
+								<h3>The Open Factory LLP.</h3>
+								<h4>Freelance </h4>
+								<h4>May 2023 - Dec 2023 · 8 mos</h4>
+								<h5>Remote</h5>
 							</span>
 							<p>
-							Another Creative is a full stack agency that helps deliver exceptional digital experiences to small and medium businesses. Branding, Marketing, and Web/Software Development.
+							The Open Factory is a tech startup where the elegance of OT 
+							meets the open standards of IT. It aims for its users to create, deploy and manage their IT solutions for their OT applications.
+							TheOpenFactory&apos;s Low-Code platform helps elevate industries, one connection at a time.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
+
+						
 					</article>
 
-					<article className={career.company}>
+					<article className={career.companyPositions}>
+						
+					
+						<div className={career.position}>
+							<div className={career.positionContent}>
+									<span className={career.positionHeader}>
+										<h3>Freelance Front End Developer </h3>
+										<h4>May 2023 - Dec 2023 · 8 mos</h4>
+									</span>
+								{/* <p>
+									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
+								</p> */}
+								<p>
+									Some key projects completed during this time 👇
+								</p>
+								<ul className={career.list}>
+									<li>
+									Developed the entire frontend from scratch and implemented responsive design solutions, ensuring seamless functionality across various devices and browsers.
+										{/* <span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span> */}
+									</li>
+									<li>
+									Collaborated with backend developers and implemented real-time data tracking using MQTT protocol  .
+										{/* <span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span> */}
+									</li>
+									{/* <li>
+									Developed and optimized user interfaces using HTML, CSS, and JavaScript, enhancing the overall user experience
+									and performance of Rablo.in&apos;s web applications.
+										<span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span>
+									</li> */}
+								</ul>
+								<Badges list={stack} block="stack" fullContainer="fullContainer"/>
+							</div>
+							<div className={career.positionAlt}></div>
+						</div>
+
+					</article>
+
+					{/* <article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
 								<h3>West Coast Electronics</h3>
@@ -151,7 +195,7 @@ export default function Career() {
 							<p>West Coast Electronics was a repair shop that fixed computers, consoles, and cell phones.</p>
 						</div>
 						<div className={career.companyAlt}></div>
-					</article>
+					</article> */}
 				</section>
 			</Container>
 		</Section>
@@ -179,13 +223,13 @@ const stack	= [
 	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
 	{ key: 'react', 		name: 'React', 				type: 'devicon' },
 	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
+	// { key: 'php', 			name: 'PHP', 				type: 'devicon' },
+	// { key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
+	// { key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
 	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
 	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
+	{ key: 'sass', 			name: 'SCSS', 				type: 'devicon' },
 	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+	// { key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
+	// { key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
 ]

@@ -1,0 +1,16 @@
+button.primary {
+  background-color: var(--secondary);
+  color: var(--background);
+}
+button.primary:hover {
+  background-color: var(--secondary-bright);
+}
+button.secondary {
+  background-color: transparent;
+  border: 1px solid var(--primary-dark);
+  color: var(--primary);
+}
+button.secondary:hover {
+  color: var(--primary-bright);
+  background-color: var(--primary-dark);
+}/*# sourceMappingURL=button.module.css.map */

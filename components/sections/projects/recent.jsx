@@ -15,7 +15,7 @@ export default function GitProjects({ repos, user }) {
 				<h3>Recent Projects</h3>
 				<section className={css.profile}>
 					<Image className={css.profilePhoto} src={`${user[0].avatar_url}`} alt="Github Profile Photo" height={60} width={60}/>
-					<span class={css.details}>
+					<span className={css.details}>
 						<p>{user[0].name}</p>
 						<a href={user[0].html_url} rel="noreferrer" target="_blank">{user[0].html_url} <Icon icon={[ 'far', 'arrow-up-right-from-square' ]} /></a>
 					</span>
@@ -35,7 +35,7 @@ export default function GitProjects({ repos, user }) {
 									<p className={css.description}>{description}</p>
 								</span>
 								<span className={css.details}>
-									<p><i className={`devicon-${language.toLowerCase()}-plain colored`} /> {language}</p>
+									<p><i className={`devicon-${language?.toLowerCase()}-plain colored`} /> {language}</p>
 									<p><Icon icon={[ 'fad', 'star' ]} /> {watchers}</p>
 									<p><Icon icon={[ 'fad', 'code-branch' ]} /> {forks_count}</p>
 									<p className={css.pushedAt}>{date}</p>
@@ -43,7 +43,7 @@ export default function GitProjects({ repos, user }) {
 								<span className={css.topicsContainer}>
 									{
 									topics.map( (e, index) => {
-										return ( <span key={index} className={css.topics}><i class="devicon-github-plain"></i> {e}</span> )
+										return ( <span key={index} className={css.topics}><i className="devicon-github-plain"></i> {e}</span> )
 									})
 									}
 								</span>

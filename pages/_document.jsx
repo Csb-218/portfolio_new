@@ -17,9 +17,12 @@ export default function Document() {
 				<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
 				<meta name="msapplication-TileColor" content="#da532c" />
 				<meta name="theme-color" content="#ffffff" />
+				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 			</Head>
 			<body>
 				<Main />
+				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+				<script type="text/javascript" src="https://www.powr.io/powr.js?platform=html" async>  </script>
 				<NextScript />
 			</body>
 		</Html>

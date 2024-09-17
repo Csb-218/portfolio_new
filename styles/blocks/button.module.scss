@@ -1,5 +1,16 @@
 button {
 
+	&.bright{
+		background-color: var(--primary-bright);
+		color: var(--background);
+	
+
+		&:hover {
+			color: var(--primary-bright);
+			background-color: var(--primary-dark);
+		}
+	}
+
 	&.primary {
 		background-color: var(--secondary);
 		color: var(--background);

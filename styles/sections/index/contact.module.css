@@ -1,0 +1,67 @@
+.section {
+  display: "flex";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Add this */
+  margin-top: 150px;
+}
+.section h2 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+.section p {
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+.section .social {
+  text-align: center;
+  margin-top: 10px;
+}
+.section .social h4 {
+  margin-bottom: 5px;
+}
+.section .social .socialList {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 9px;
+       column-gap: 9px;
+  justify-content: center;
+}
+.section .social .socialList svg {
+  height: 2rem;
+}
+.section .canvas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  overflow-y: scroll;
+  overflow: auto;
+  height: auto;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(128, 128, 128);
+  border-width: 1px;
+}
+.section span {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.section span svg {
+  height: 30px;
+  width: 30px;
+}
+.section span p {
+  font-weight: 600;
+}/*# sourceMappingURL=contact.module.css.map */

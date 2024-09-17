@@ -1,0 +1,93 @@
+@import '../../scss/mixins';
+
+.section{
+    display : "flex";
+    flex-direction: column;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; /* Add this */
+
+    margin-top: 150px;
+
+    // background-color: rgb(240, 255, 127);
+   
+    h2{ 
+        font-family: sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    p{
+        font-family: sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .social{
+        text-align: center;
+        margin-top: 10px;
+
+        h4{
+            margin-bottom: 5px;
+        }
+
+        .socialList{
+            display: flex;
+            flex-direction: row;
+            column-gap: 9px;
+            justify-content: center;
+
+            svg {
+                height: 2rem;
+            }
+        }
+    }
+
+    .canvas{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-content: center;
+        text-align: center;
+        column-gap: 10px;
+        overflow-y: scroll;
+        overflow: auto;
+        height:auto;
+        padding:10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 50px;
+        border-radius: 20px;
+        border-style: solid;
+        border-color: rgb(128, 128, 128);
+        border-width: 1px;
+
+        
+
+    }
+
+    span{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    
+        svg{
+            height:30px;
+            width:30px;
+        }
+
+        p{
+            font-weight: 600;
+        }
+    }
+        
+
+    
+
+
+}
+

@@ -15,6 +15,7 @@ import CopyBlock from '../../blocks/about.copy.block'
 
 // Section scss
 import about from '../../../styles/sections/index/about.module.scss';
+import Experience from '../../blocks/about.experience.block';
 
 /**
  * Section: About
@@ -34,7 +35,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/me2.jpeg" alt="Nelson family photo"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -43,8 +44,19 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="Hey there! I'm C.S Bhagwant, a freelance web developer based in India. My skills span traditional web development , and no-code development, allowing me to bring your digital vision to life with precision and creativity.From sleek landing pages to robust e-commerce platforms, I've got you covered. I thrive on exceeding client expectations, whether it's building responsive designs or optimizing for SEO. I take the time to understand your goals, ensuring the end product meets your needs.Located in India , I draw inspiration from the city's diverse culture and innovative spirit. Let's collaborate and turn your ideas into captivating online experiences!"
 						/>
+
+						{/* <Experience
+						 title="Work Experience"
+						 containerClass={about.container}
+						 list={experiences}
+						 iconClass={about.icon}
+						 icon={[ 'fat', 'briefcase' ]}
+						/> */}
+
+						
+{/* 
 						<BadgesBlock 
 							title="Reasearch and planning" 
 							containerClass={about.container}
@@ -55,13 +67,18 @@ export default function About() {
 							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
 							//invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
-						/>
+						/> */}
 					</div>
 				</section>	
 			</Container>
 		</Section>
 	)
 }
+
+const experiences = [
+	{ key:"openfactory" , company:"The Open Factory" , role:"Freelance Frontend Developer" , tenure:"2024" },
+	{ key:"rablo" ,       company:"Rablo" ,            role:"Frontend Developer" ,           tenure:"2023-2024"}
+]
 
 const methods 	= [
 	{ key: 'planet-moon', 		name: 'User Research', 		type: 'fad' },

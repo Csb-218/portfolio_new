@@ -32,19 +32,15 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
+			"url": "https://twitter.com/CsBhagwant",
+			"icon": "twitter"
 		},
 		{
-			"url": "https://dev.to/andrewnelson",
-			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://t.co/znsg2wBAXu",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/atlamors",
+			"url": "https://github.com/Csb-218",
 			"icon": "github"
 		}
 	]
