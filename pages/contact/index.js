@@ -70,8 +70,8 @@ const Contact = () => {
                     <div
                         className="powr-form-builder "
                         style={{
-                           width:'500px',
-                           
+                           minWidth:'425px',
+                            
                     }}
                         id="813ed9e4_1712147726">
                         .
