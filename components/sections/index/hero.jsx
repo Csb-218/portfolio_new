@@ -29,9 +29,9 @@ import content from '../../../content/index/hero.json'
 
 export default function Hero() {
 
-    const router = useRouter();
+	const router = useRouter();
 	const [typingStatus, setTypingStatus] = useState('Initializing');
-	
+
 
 	return (
 		<Section classProp={`${hero.section}`}>
@@ -74,10 +74,11 @@ export default function Hero() {
 						{content.buttons.primary.title}
 
 						<span style={{ marginLeft: "5px" }}>
-							<Icon icon={['fas', "rocket"]} />
+								<Icon icon={['fas', "rocket"]} />
 						</span>
 
 					</button>
+
 					<button className={`button ${button.secondary} leaveSite`}
 						onClick={() => window.open("https://www.linkedin.com/in/c-s-bhagwant-82461b197", "_blank")} >
 						{content.buttons.secondary.title}
