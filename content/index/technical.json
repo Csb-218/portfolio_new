@@ -1,0 +1,16 @@
+[
+     {
+        "company" : "Fc",
+        "url" : "https://founders.careers/?utm_campaign=ProfilePage&utm_medium=VisitWebsite&utm_source=LinkedIN",
+        "logo" : "/img/logos/fc.logo.jpeg",
+        "alt" : "Founders.careers Logo"
+    },
+    {
+      "company" : "Rablo",
+      "url" : "https://rablo.in/",
+      "logo" : "/img/logos/rablo.logo.png",
+      "alt" : "Rablo.in Logo"
+    }
+   
+
+]
