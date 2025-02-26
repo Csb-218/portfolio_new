@@ -63,7 +63,7 @@ export default function FeaturedProject({ content }, index) {
 						return (
 							<m.div key={`${index}-${key}`} variants={item} >
 								<m.div variants={hover}>
-									<Image src={url} alt="x" height={900} width={900} />
+									<Image src={url} alt="x" height={h} width={w} />
 								</m.div>
 							</m.div>
 						)}
