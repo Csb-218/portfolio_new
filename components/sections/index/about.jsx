@@ -31,11 +31,11 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="With a diverse skill set that includes No-code development, full stack development, and systems design, I am a well-rounded digital professional."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/me2.jpeg" alt="Nelson family photo"/>
+						<Image src="/img/me2.jpeg" alt="csb profile picture" width={600} height={800}/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
