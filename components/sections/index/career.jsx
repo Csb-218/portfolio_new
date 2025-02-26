@@ -45,8 +45,8 @@ export default function Career() {
 
 								</Link>
 								<h3>Founders Careers</h3>
-								<h4>Intern Full-time</h4>
-								<h4>oct 2024 - Present · 1 month</h4>
+								<h4>Freelance</h4>
+								<h4>Nov 2024 - Jan 2025 · 3 month</h4>
 								<h5>Remote</h5>
 							</span>
 							<p>
@@ -108,8 +108,8 @@ export default function Career() {
 						<div className={career.position}>
 							<div className={career.positionContent}>
 								<span className={career.positionHeader}>
-									<h3>Bubble.io Developer Intern</h3>
-									<h4>Oct 2024 - Present · 1 month</h4>
+									<h3>Freelance Bubble.io Developer</h3>
+									<h4>Nov 2024 - Jan 2025 · 3 month</h4>
 								</span>
 								{/* <p>
 									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
@@ -118,19 +118,21 @@ export default function Career() {
 									Some key projects completed during this time 👇
 								</p>
 								<ul className={career.list}>
-									<li>
-										Collaborated with the design and backend teams to implement responsive design solutions, ensuring seamless functionality across various devices and browsers.
-										{/* <span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span> */}
-									</li>
-									<li>
+									{/* <li>
+									    Page Workflows(improved page loading time)
+										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
+									</li> */}
+									{/* <li>
 										Implemented dynamic search .
-										{/* <span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span> */}
-									</li>
+										<span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span>
+									</li> */}
 									<li>
-										Implemented and improved
+									    <span className={career.subList}><span className={career.bullet}></span>Implemented dynamic search .</span>
 										<span className={career.subList}><span className={career.bullet}></span>Page Workflows(improved page loading time)</span>
 										<span className={career.subList}><span className={career.bullet}></span>Backend workflows</span>
-
+										<span className={career.subList}><span className={career.bullet}></span>Third-party Authentication and API Integration</span>
+										<span className={career.subList}><span className={career.bullet}></span>Webhooks</span>
+										<span className={career.subList}><span className={career.bullet}></span>Payment Gateway setup</span>
 									</li>
 								</ul>
 								<Badges list={NoCode} block="stack" fullContainer="fullContainer" />
@@ -272,7 +274,7 @@ export default function Career() {
 						<div className={career.position}>
 							<div className={career.positionContent}>
 								<span className={career.positionHeader}>
-									<h3>Freelance Front End Developer </h3>
+									<h3>Freelance Frontend Developer </h3>
 									<h4>May 2023 - Dec 2023 · 8 mos</h4>
 								</span>
 								{/* <p>
