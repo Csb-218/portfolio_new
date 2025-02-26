@@ -1,5 +1,28 @@
 [
 	{
+		"project": "Covlet",
+		"url": "https://www.covlet.in/",
+
+		"descriptionTitle": "Transform your job applications with our AI-powered Chrome extension.",
+		"description": "Our Chrome extension reads job descriptions on platforms like LinkedIn, Wellfound, and Internshala, then generates personalized cover letters designed to get you noticed.",
+		"imageOptions": [
+		],
+		"images": [
+			
+			{ "key": "mock-stack",	"hover": "left",	"h": "260", "w": "400", "url": "/img/msc-mock_stack/03.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "wxt",		    "name": "WXT", 	        "type": "devicon" },
+			{ "key": "tailwind",	"name": "tailwind", 	"type": "devicon" },
+			{ "key": "chrome",	    "name": "Chrome",       "type": "devicon"}
+		]
+	},
+	{
 		"project": "Texjobs",
 		"url": "https://texjobs.in/",
 
@@ -9,7 +32,7 @@
 		],
 		"images": [
 			
-			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "556", "url": "/img/msc-mock_stack/01.png" }
+			{ "key": "mock-stack",	"hover": "left",	"h": "1200", "w": "1000", "url": "/img/msc-mock_stack/01.png" }
 		],
 		"stack": [
 			{ "key": "bubble", 		"name": "Bubble.io", 	"type": "devicon" }
@@ -24,7 +47,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/easemyhood/04.png" }
+			{ "key": "portfolio", "hover": "left", "h": "1000", "w": "900",  "url": "/img/easemyhood/04.png" }
 		],
 		"stack": [
 			{ "key": "bubble", 		"name": "Bubble.io", 	"type": "devicon" }
@@ -40,7 +63,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/theopenfactory/01.png" }
+			{ "key": "portfolio", "hover": "left", "h": "1000", "w": "900",  "url": "/img/theopenfactory/01.png" }
 		],
 		"stack": [
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
