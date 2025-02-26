@@ -29,7 +29,7 @@ export default function GitProjects({ repos, user }) {
 							<article key={index} className={css.project}>
 								<span className={css.header}>
 									<a href={html_url} rel="noreferrer" target="_blank">{name} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p className={css.homepage}>{homepage}</p>
+									{/* <p className={css.homepage}>{homepage}</p> */}
 								</span>
 								<span className={css.descriptionContainer}>
 									<p className={css.description}>{description}</p>
