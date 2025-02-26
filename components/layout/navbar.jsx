@@ -12,11 +12,11 @@ export default function Navbar() {
 
 	const router = useRouter()
 
-	const [ menuState, menuToggle ] = useState()
+	const [ menuState, menuToggle ] = useState(false)
 
-	useEffect( () => {
-		menuToggle(false)
-	}, [] )
+	// useEffect( () => {
+	// 	menuToggle(false)
+	// }, [] )
 
 	useEffect( () => {
 		class RouteEvents {
@@ -150,7 +150,7 @@ export default function Navbar() {
 						content.map( ({ url, title }, index) => {
 							return (
 								<li key={index}>
-									<Link href={url}>{title}</Link>
+									<Link href={url} >{title}</Link>
 								</li>
 							)
 						})	
