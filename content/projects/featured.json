@@ -24,7 +24,7 @@
 	},
 	{
 		"project": "Texjobs",
-		"url": "https://texjobs.in/",
+		"url": "https://knitnexus.com/",
 
 		"descriptionTitle": "B2B web application for Textile workers",
 		"description": "with elegant solutions for a complex codebase and customer journey.",
@@ -39,42 +39,26 @@
 		]
 	},
 	{
-		"project": "Easemyhood",
-		"url": "https://easemyhood.com",
-		"descriptionTitle": "An B2C Hyperlocal marketplace",
-		"description": "built on Bubble.io",
+		"project": "URL Shortner",
+		"url": "https://url-shortner-chi-tawny.vercel.app",
+		"descriptionTitle": "A url shortening service",
+		"description": "that returns a shortened version of the url provided.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "1000", "w": "900",  "url": "/img/easemyhood/04.png" }
+			{ "key": "portfolio", "hover": "left", "h": "600", "w": "900",  "url": "/img/Device-Macbook-Pro.png" }
 		],
 		"stack": [
-			{ "key": "bubble", 		"name": "Bubble.io", 	"type": "devicon" }
-			
-		]
-	},
-	{
-		"project": "The Open Factory",
-		"url": "https://theopenfactory.cloud/",
-		"descriptionTitle": "The open Factory ",
-		"description": "is a real-time data tracking prototype application of a startup.",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
-		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "1000", "w": "900",  "url": "/img/theopenfactory/01.png" }
-		],
-		"stack": [
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React.js", 		"type": "devicon" },
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "tailwindcss",	"name": "Tailwind", 		"type": "devicon" },
+			{ "key": "vite",		"name": "Vite", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "mqtt",		"name": "MQTT", 	    "type": "devicon" },
-			{ "key": "bootstrap",	"name": "BootStrap", 	"type": "devicon" }
+			{ "key": "express",		"name": "Express.js", 	    "type": "devicon" },
+			{ "key": "mongodb",	"name": "MongoDb", 	"type": "devicon" }
 
 			
 		]
@@ -88,7 +72,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "797", "w": "556",  "url": "/img/firetube/01.png" }
+			{ "key": "portfolio", "hover": "left", "h": "737", "w": "556",  "url": "/img/firetube/01.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
