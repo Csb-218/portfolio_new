@@ -1,0 +1,141 @@
+@import '../../scss/mixins';
+
+.section {
+    background: var(--background-dim);
+    border-bottom: 1px solid var(--primary-dark);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 8rem auto 0;
+}
+
+.heading {
+    font-size: var(--font-xl-l);
+    color: var(--primary-bright);
+    margin-bottom: 2rem;
+}
+
+.subheading {
+    font-family: var(--font-accent);
+    font-size: 0.9rem;
+    color: var(--primary-dim);
+    margin-bottom: 2rem;
+}
+
+.contactInfo {
+    margin-bottom: 3rem;
+    
+    h2 {
+        font-size: var(--font-r-l);
+        color: var(--secondary);
+        margin-bottom: 1rem;
+    }
+
+    .infoGrid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+
+        @include media($max: $mobile) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .infoItem {
+        h3 {
+            font-size: 0.9rem;
+            color: var(--primary-dim);
+            margin-bottom: 0.5rem;
+            font-family: var(--font-accent);
+        }
+
+        p {
+            color: var(--primary);
+            font-family: var(--font-accent);
+            line-height: 1.5;
+        }
+
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            transition: opacity 0.2s;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+.formWrapper {
+    background-color: var(--background);
+    border: 1px solid var(--primary-dark);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: var(--primary);
+        font-family: var(--font-accent);
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid var(--primary-dark);
+        border-radius: 0.5rem;
+        background: var(--background-dim);
+        color: var(--primary);
+        font-family: var(--font-accent);
+        transition: border-color 0.2s;
+
+        &:focus {
+            outline: none;
+            border-color: var(--secondary);
+        }
+    }
+
+    textarea {
+        min-height: 150px;
+        resize: vertical;
+    }
+}
+
+.submitButton {
+    background-color: var(--secondary);
+    color: var(--background);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: var(--font-accent);
+    cursor: pointer;
+    transition: opacity 0.2s;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+@include media($max: $mobile) {
+    .container {
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+
+    .formWrapper {
+        padding: 1rem;
+    }
+
+    .heading {
+        font-size: var(--font-l);
+    }
+}
