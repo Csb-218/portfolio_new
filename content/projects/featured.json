@@ -39,26 +39,30 @@
 		]
 	},
 	{
-		"project": "URL Shortner",
-		"url": "https://url-shortner-chi-tawny.vercel.app",
-		"descriptionTitle": "A url shortening service",
-		"description": "that returns a shortened version of the url provided.",
+		"project": "MathTastic",
+		"url": "https://mathtastic-client.onrender.com",
+		"descriptionTitle": "E-learning platform",
+		"description": "E-learning platform for kids to play interactive and educational games.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "600", "w": "900",  "url": "/img/Device-Macbook-Pro.png" }
+			{ "key": "portfolio", "hover": "left", "h": "1200", "w": "1200",  "url": "/img/msc-mock_stack/04.png" }
 		],
 		"stack": [
-			{ "key": "react", 		"name": "React.js", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+
+			{ "key": "vuejs", 		"name": "Vue.js", 		"type": "devicon" },
 			{ "key": "typescript", 	"name": "TypeScript", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "tailwindcss",	"name": "Tailwind", 		"type": "devicon" },
+			{ "key": "tailwindcss",	"name": "Tailwind",     "type": "devicon" },
 			{ "key": "vite",		"name": "Vite", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "express",		"name": "Express.js", 	    "type": "devicon" },
-			{ "key": "mongodb",	"name": "MongoDb", 	"type": "devicon" }
+			{ "key": "python",      "name":"Python",        "type":"devicon"},
+			{ "key": "fastapi",		"name": "FastApi", 	    "type": "devicon" },
+			{ "key": "mongodb",	    "name": "MongoDb", 	    "type": "devicon" },
+			{ "key": "firebase",	"name": "Firebase", 	"type": "devicon" },
+			{ "key": "firestore",	"name": "FireStore", 	"type": "devicon" }
+		
 
 			
 		]
