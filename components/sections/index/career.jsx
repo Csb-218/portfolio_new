@@ -108,7 +108,7 @@ export default function Career() {
 						<div className={career.position}>
 							<div className={career.positionContent}>
 								<span className={career.positionHeader}>
-									<h3>Freelance Bubble.io Developer</h3>
+									<h3>Freelance Full-stack Developer</h3>
 									<h4>Nov 2024 - Jan 2025 · 3 month</h4>
 								</span>
 								{/* <p>
@@ -127,15 +127,14 @@ export default function Career() {
 										<span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span>
 									</li> */}
 									<li>
-									    <span className={career.subList}><span className={career.bullet}></span>Implemented dynamic search .</span>
-										<span className={career.subList}><span className={career.bullet}></span>Page Workflows(improved page loading time)</span>
-										<span className={career.subList}><span className={career.bullet}></span>Backend workflows</span>
-										<span className={career.subList}><span className={career.bullet}></span>Third-party Authentication and API Integration</span>
-										<span className={career.subList}><span className={career.bullet}></span>Webhooks</span>
-										<span className={career.subList}><span className={career.bullet}></span>Payment Gateway setup</span>
+									    <span className={career.subList}><span className={career.bullet}></span>Developed and maintained RESTful APIs using Node.js and Express.js for backend services.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Implemented secure user authentication and authorization using JSON Web Tokens (JWT).</span>
+										<span className={career.subList}><span className={career.bullet}></span>Integrated various third-party APIs for payments and other services.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Deployed applications on cloud platforms and managed the infrastructure.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Engineered dynamic and responsive user interfaces with React.js, improving user experience.</span>
 									</li>
 								</ul>
-								<Badges list={NoCode} block="stack" fullContainer="fullContainer" />
+								<Badges list={fullStack} block="stack" fullContainer="fullContainer" />
 							</div>
 							<div className={career.positionAlt}></div>
 						</div>
@@ -228,15 +227,19 @@ export default function Career() {
 									Some key projects completed during this time 👇
 								</p>
 								<ul className={career.list}>
-									<li>
+									<li  className={career.subList}>
 										Collaborated with the design and backend teams to implement responsive design solutions, ensuring seamless functionality across various devices and browsers.
 										{/* <span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span> */}
 									</li>
-									<li>
+									<li className={career.subList}>
 										Implemented dynamic imports .
 										<span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span>
 									</li>
-									<li>
+									<li className={career.subList}>
+										Implemented Graphql Queries to manage dynamic data.
+										{/* <span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span> */}
+									</li>
+									<li className={career.subList}>
 										Developed and optimized user interfaces using HTML, CSS, and JavaScript, enhancing the overall user experience
 										and performance of Rablo.in&apos;s web applications.
 										{/* <span className={career.subList}><span className={career.bullet}></span>7.1% overall conversion rate </span> */}
@@ -329,14 +332,11 @@ const fullStack = [
 	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
 	{ key: 'react', name: 'React', type: 'devicon' },
 	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
-	{ key: 'php', name: 'PHP', type: 'devicon' },
-	{ key: 'wordpress', name: 'WordPress', type: 'devicon' },
-	{ key: 'woocommerce', name: 'WooCommerce', type: 'devicon' },
 	{ key: 'html5', name: 'HTML5', type: 'devicon' },
 	{ key: 'css3', name: 'CSS3', type: 'devicon' },
 	{ key: 'sass', name: 'SASS', type: 'devicon' },
 	{ key: 'git', name: 'Git', type: 'devicon' },
-	{ key: 'mysql', name: 'MySQL', type: 'devicon' },
+	{ key: 'express', name: 'Express', type: 'devicon' },
 	{ key: 'mongodb', name: 'MongoDB', type: 'devicon' },
 ]
 
@@ -345,6 +345,7 @@ const stack = [
 	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
 	{ key: 'react', name: 'React', type: 'devicon' },
 	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
+	
 	// { key: 'php', 			name: 'PHP', 				type: 'devicon' },
 	// { key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
 	// { key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
@@ -352,6 +353,7 @@ const stack = [
 	{ key: 'css3', name: 'CSS3', type: 'devicon' },
 	{ key: 'sass', name: 'SCSS', type: 'devicon' },
 	{ key: 'git', name: 'Git', type: 'devicon' },
+	{key:"graphql" , name:"GraphQL", type:"devicon"}
 	// { key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
 	// { key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
 ]
