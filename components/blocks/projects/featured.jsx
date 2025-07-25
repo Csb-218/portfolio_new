@@ -63,7 +63,7 @@ export default function FeaturedProject({ content }, index) {
 						return (
 							<m.div key={`${index}-${key}`} variants={item} >
 								<m.div variants={hover}>
-									<Image src={url} alt="x" height={h} width={w} />
+									<Image src={url} alt="x" height={h} width={w} style={{ objectFit: 'cover' }} />
 								</m.div>
 							</m.div>
 						)}
