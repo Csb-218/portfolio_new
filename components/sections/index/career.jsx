@@ -32,6 +32,7 @@ export default function Career() {
 					subTitle="I am currently creating and developing at Founders.careers . "
 				/>
 				<section className={career.area}>
+
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
@@ -39,6 +40,119 @@ export default function Career() {
 									<Image
 										src={companies[0].logo}
 										alt={companies[0].alt}
+										height={60}
+										width={100} >
+									</Image>
+
+								</Link>
+								<h3>Oasys</h3>
+								<h4>Full-time</h4>
+								<h4>August 2025 - Present</h4>
+								<h5>On-site</h5>
+							</span>
+							<p>
+								Oasys has helped governments and enterprises modernise essential systems through ERP, e-governance, cloud, cybersecurity, AI, geospatial technology, and custom software.
+							</p>
+						</div>
+						<div className={career.companyAlt}></div>
+					</article>
+
+					<article className={career.companyPositions}>
+						{/* <div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>Director of Product Design and Development</h3>
+									<h4>Nov 2021 - Present · 1 yrs 3 mos</h4>
+								</span>
+								<p>
+								I am responsible for the ideation, planning, and development of new consumer goods—and customer and employee facing microservice software. During these projects I work with key stakeholders within our company and supplychain to ensure and meet quality goals across multiple domains.
+								</p>
+							</div>
+							<div className={career.positionAlt}></div>
+						</div> */}
+
+						{/* <div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>Full Stack Developer & User Experience Designer</h3>
+									<h4>Feb 2020 - Nov 2021 · 1 yrs 10 mos</h4>
+								</span>
+								<p>
+								As the lead full stack developer I am responsible for all software development, CI/CD, and QA. This is for the front end, APIs, and the back end. Additionally I was tasked with identifying and analyzing weak points in the customer journey and employee workflows. Each project had to be estimated and prioritized based on its workload and immediate impact to efficiency or revenue. Some of these projects have been so successful internally that we have planned refactoring for commercialization. 
+								</p>
+								<p>
+								Some key projects complete during this time 👇
+								</p>
+								<ul className={career.list}>
+									<li>
+										Product attribute and settings automated testing
+										<span className={career.subList}><span className={career.bullet}></span>Eradicated critical data input errors</span>
+									</li>
+									<li>
+										Inventory management reporting and automation 
+										<span className={career.subList}><span className={career.bullet}></span>Decreased purchasing labour by ~80%</span>
+									</li>
+									<li>
+										Sales management plugin with AJAX shopping cart integration
+										<span className={career.subList}><span className={career.bullet}></span>Increased AOV by 8.3%</span>
+									</li>
+									<li>
+										Bespoke ID verification software and WooCommerce integration
+										<span className={career.subList}><span className={career.bullet}></span>Decreased Credit Card fraud by 98%</span>
+									</li>
+								</ul>
+								<Badges list={fullStack} block="stack" fullContainer="fullContainer"/>
+							</div>
+							<div className={career.positionAlt}></div>
+						</div> */}
+
+						<div className={career.position}>
+							<div className={career.positionContent}>
+								<span className={career.positionHeader}>
+									<h3>Software Developer</h3>
+									<h4>August 2025 - present </h4>
+								</span>
+								{/* <p>
+									I was brought on to help fill multiple creative rolls in a small start-up environment. Working with the marketing team to create the brand and logos — designing and developing a new front end for the website — and improving the users experience and store KPIs through design and merchandising optimizations.
+								</p> */}
+								<p>
+									Some key projects completed during this time 👇
+								</p>
+								<ul className={career.list}>
+									{/* <li>
+									    Page Workflows(improved page loading time)
+										<span className={career.subList}><span className={career.bullet}></span>Increased conversions by 0.7%</span>
+									</li> */}
+									{/* <li>
+										Implemented dynamic search .
+										<span className={career.subList}><span className={career.bullet}></span>reduced loading time by 50%</span>
+									</li> */}
+									<li>
+									    <span className={career.subList}><span className={career.bullet}></span>Engineered an ultra-low-latency video pipeline in Python, streaming real-time AI/ML model outputs to clients via the WebRTC
+protocol.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Cut CPU overhead by ~90% by re-architecting the system: offloaded WebRTC connection management and stream multiplexing
+from Python to a dedicated media server, significantly improving resource efficiency and scalability.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Designed and built scalable, asynchronous FastAPI endpoints to ingest high-frequency ML inference frames and route them
+reliably to production-grade media infrastructure.</span>
+										<span className={career.subList}><span className={career.bullet}></span>Worked closely with infrastructure to containerize services and manage deployment workflows, ensuring high availability of the
+streaming backend.</span>
+										{/* <span className={career.subList}><span className={career.bullet}></span>Engineered dynamic and responsive user interfaces with React.js, improving user experience.</span> */}
+									</li>
+								</ul>
+								<Badges list={techStack} block="stack" fullContainer="fullContainer" />
+							</div>
+							<div className={career.positionAlt}></div>
+						</div>
+
+					</article>
+
+					<article className={career.company}>
+						<div className={career.companyContent}>
+							<span className={career.companyHeader}>
+								<Link href={companies[1].url}>
+									<Image
+										src={companies[1].logo}
+										alt={companies[1].alt}
 										height={40}
 										width={40} >
 									</Image>
@@ -144,10 +258,10 @@ export default function Career() {
 					<article className={career.company}>
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-								<Link href={companies[1].url}>
+								<Link href={companies[2].url}>
 									<Image
-										src={companies[1].logo}
-										alt={companies[1].alt}
+										src={companies[2].logo}
+										alt={companies[2].alt}
 										height={40}
 										width={100} >
 									</Image>
@@ -326,6 +440,23 @@ export default function Career() {
 		</Section>
 	)
 }
+
+const techStack = [
+	{ key: 'javascript', name: 'JavaScript', type: 'devicon' },
+	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+	{ key: 'fastapi', name: 'FastAPI', type: 'devicon' },
+	{ key: 'python', name: 'Python', type: 'devicon' },
+	{ key: 'linux', name: 'Linux', type: 'devicon' },
+	{ key: 'docker', name: 'Docker', type: 'devicon' },
+	{ key: 'bash', name: 'Bash', type: 'devicon' },
+	{ key: 'shell', name: 'Shell', type: 'devicon' },
+	{ key: 'yolo', name: 'YOLO', type: 'devicon' },
+	{ key: 'pytorch', name: 'Pytorch', type: 'devicon' },
+	{ key: 'postgresql', name: 'PostgreSQL', type: 'devicon' },
+	{ key: 'celery', name: 'Celery', type: 'devicon' },
+	{ key: 'AWS', name: 'AWS', type: 'devicon' },
+	{ key: 'gitlab', name: 'Gitlab', type: 'devicon' },
+]
 
 const fullStack = [
 	{ key: 'javascript', name: 'JavaScript', type: 'devicon' },
